@@ -10,6 +10,7 @@ from django.utils.translation import gettext as _
 # 將不同type資料轉換成python，或是將python轉換成不同type的module
 from rest_framework import serializers
 
+
 # ModelSerializer會自動驗證資料跟儲存資料到特定model
 class UserSerializer(serializers.ModelSerializer):
     """Serializer for the user object."""

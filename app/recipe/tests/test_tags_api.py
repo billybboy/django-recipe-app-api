@@ -19,6 +19,7 @@ from recipe.serializers import TagSerializer
 
 TAGS_URL = reverse('recipe:tag-list')
 
+
 def detail_url(tag_id):
     """Create and return a tag detail url."""
     return reverse('recipe:tag-detail', args=[tag_id])
@@ -40,6 +41,7 @@ class PublicTagsApiTests(TestCase):
         res = self.client.get(TAGS_URL)
 
         self.assertEqual(res.status_code, status.HTTP_401_UNAUTHORIZED)
+
 
 class PrivateTagsApiTests(TestCase):
     """Test authenticated API requests."""
