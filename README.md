@@ -31,7 +31,7 @@ Recipe REST API project
 :heavy_check_mark: Image上傳<br/>
 
 ## Demo 畫面
-[作品網址](http://ec2-54-252-244-18.ap-southeast-2.compute.amazonaws.com/api/docs/#/)
+[作品網址](http://ec2-54-253-74-254.ap-southeast-2.compute.amazonaws.com/api/docs/)
 ![](https://upload.cc/i1/2023/05/31/cMqzRU.jpeg)
 
 
